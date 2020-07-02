@@ -12,7 +12,7 @@ var winningScore = 5;
 p1Button.addEventListener("click", function() {
     if (!gameOver) {
         p1Score++;
-        if (p1Score === winningScore) { //we can use == but due to this we need to turn numInput.value to string; check it out on line 43
+        if (p1Score === winningScore) { //we can use == but due to this we need to turn numInput.value to string; check it out on line 47
             p1Display.classList.add("winner"); //the green color
             gameOver = true;
         }
